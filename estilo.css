@@ -24,13 +24,14 @@ body{
     display: flex;
     list-style: none;
     width: 50%;
+    height: 50%;
     justify-content: space-around; 
     margin-top: 12px;
 }
 .menu a{
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 15px 20px;
     border-radius: 5%;
  }
  .navbar{
@@ -41,24 +42,60 @@ body{
     background-color: rgb(0, 255, 255);
     color: rgb(20, 50, 96);
     transition: ease-in .3s;
+    cursor: pointer;
 }
 nav li:hover>ul{
     display:block;
     position:absolute;
     top:30px;
-    left:0px;
+    left:0px;  
+      
 }
-nav li>ul{
+.row{
     display:none;
+    background-color: rgb(35, 71, 129);
+    width: 200px;
+    height: 250px;    
 }
 nav li{
         display:inline-block;
-        margin-top: 20px;
-        width:265px;
-        height:50px;
-        padding:5px 10px;
-        text-align:left;
+        margin-top: 30px;
+        width:200px;
+        height:30px;
+        text-align:center;
         color:#fff;
         position:relative;
 }
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 50px;
+    
+}
+.info p{
+    color: white;
+}
+.info  h1{
+    color: white;
+    font-size: 3em;
+}
+.info span{
+    color: rgb(166, 221, 95);
+}
+.ropa{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    display: inline-flex;
+       
+}
+
+.ropa .camisa{
+    margin-left: 200px;
+}
+.ropa .sueter{
+    margin-left: 200px;
+}
             
+
