@@ -18,7 +18,7 @@ body{
     width: 100vw;
     height: 100vh;
     padding: 2em;
-    background-color: rgb(33, 33, 79);
+    background-color:  rgb(142, 142, 225);
 }
 .menu{
     display: flex;
@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
 }
 .menu a:hover{
-    background-color: rgb(0, 255, 255);
+    background-color: #dac9df;
     color: rgb(20, 50, 96);
     transition: ease-in .3s;
     cursor: pointer;
@@ -53,7 +53,7 @@ nav li:hover>ul{
 }
 .row{
     display:none;
-    background-color: rgb(35, 71, 129);
+    background-color: #d2b4db;
     width: 200px;
     height: 250px;    
 }
